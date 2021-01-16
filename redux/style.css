@@ -1,0 +1,16 @@
+.wrapper {
+    width: 25%;
+    margin: 0 auto;
+}
+#asci-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border: 2px solid grey;
+}
+#asci-cont {
+    font-weight: bolder;
+    font-size: 2em;
+}
