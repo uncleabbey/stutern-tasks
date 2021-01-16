@@ -72,19 +72,19 @@ const {createStore} = Redux
     
     
     document.getElementById("happy-btn").addEventListener("click", (e) => {
-        store.dispatch(happyAction("😀"))
+        store.dispatch(happyAction("✧♡(◕‿◕✿)"))
         container.innerHTML = `<pre>${store.getState().asci}</pre>`;
     })
     document.getElementById("sad-btn").addEventListener("click", (e) => {
-        store.dispatch(sadAction("😭"))
+        store.dispatch(sadAction("(   ͡°╭╮ʖ   ͡°)"))
         container.innerHTML = `<pre>${store.getState().asci}</pre>`;
     })
     document.getElementById("confused-btn").addEventListener("click", (e) => {
-        store.dispatch(confusedAction("😨"))
+        store.dispatch(confusedAction("¯\(°_o)/¯"))
         container.innerHTML = `<pre>${store.getState().asci}</pre>`;
     })
     document.getElementById("angry-btn").addEventListener("click", (e) => {
-        store.dispatch(angryAction("😠"))
+        store.dispatch(angryAction("ლಠ益ಠ)ლ"))
         container.innerHTML = `<pre>${store.getState().asci}</pre>`;
     })
 
